@@ -14,7 +14,7 @@ todaysDate <- Sys.Date()
 # todaysDate <- format(Sys.Date(), "%d-%b-%Y")
 
 # Set FRED API key
-fredr_set_key('a20f11e75b97d7c2b7120f0f9789ea30')
+fredr_set_key('******')
 
 # Retrieve CPI data from FRED
 medianCPI <- fredr(
